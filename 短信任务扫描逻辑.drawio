@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T12:03:28.675Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="ajsZNmBM2p46f7Ee993C" version="13.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-07T12:32:14.099Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="vYmwkLrT6-9VX2ylNMm4" version="13.1.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iKl70BLWrLLEICIOicpz-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iKl70BLWrLLEICIOicpz-1" target="iKl70BLWrLLEICIOicpz-3">
+        <mxCell id="iKl70BLWrLLEICIOicpz-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iKl70BLWrLLEICIOicpz-1" target="iKl70BLWrLLEICIOicpz-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iKl70BLWrLLEICIOicpz-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="190" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-2" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iKl70BLWrLLEICIOicpz-2" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="970" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iKl70BLWrLLEICIOicpz-3" target="iKl70BLWrLLEICIOicpz-4">
+        <mxCell id="iKl70BLWrLLEICIOicpz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iKl70BLWrLLEICIOicpz-3" target="iKl70BLWrLLEICIOicpz-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-3" value="扫描redis zset 第一个元素X" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iKl70BLWrLLEICIOicpz-3" value="扫描redis zset 第一个元素X" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="342" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-5" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="iKl70BLWrLLEICIOicpz-4" target="iKl70BLWrLLEICIOicpz-3">
+        <mxCell id="iKl70BLWrLLEICIOicpz-5" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="iKl70BLWrLLEICIOicpz-4" target="iKl70BLWrLLEICIOicpz-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="250" y="405" />
@@ -27,40 +27,40 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iKl70BLWrLLEICIOicpz-4" target="iKl70BLWrLLEICIOicpz-9">
+        <mxCell id="iKl70BLWrLLEICIOicpz-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iKl70BLWrLLEICIOicpz-4" target="iKl70BLWrLLEICIOicpz-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-4" value="X的score-当前时间&amp;gt;=1s" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iKl70BLWrLLEICIOicpz-4" value="X的score-当前时间&amp;gt;=1s" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="338" y="380" width="128" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iKl70BLWrLLEICIOicpz-9" target="iKl70BLWrLLEICIOicpz-20">
+        <mxCell id="iKl70BLWrLLEICIOicpz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iKl70BLWrLLEICIOicpz-9" target="iKl70BLWrLLEICIOicpz-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-9" value="lock taskId 1分钟" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iKl70BLWrLLEICIOicpz-9" value="lock taskId 1分钟" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="342" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iKl70BLWrLLEICIOicpz-10" target="iKl70BLWrLLEICIOicpz-2">
+        <mxCell id="iKl70BLWrLLEICIOicpz-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iKl70BLWrLLEICIOicpz-10" target="iKl70BLWrLLEICIOicpz-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-10" value="release taskId lock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iKl70BLWrLLEICIOicpz-10" value="release taskId lock" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="342" y="860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iKl70BLWrLLEICIOicpz-14" target="iKl70BLWrLLEICIOicpz-15">
+        <mxCell id="iKl70BLWrLLEICIOicpz-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iKl70BLWrLLEICIOicpz-14" target="iKl70BLWrLLEICIOicpz-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-14" value="入kafka 短信发送topic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iKl70BLWrLLEICIOicpz-14" value="入kafka 短信发送topic" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="342" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iKl70BLWrLLEICIOicpz-15" target="iKl70BLWrLLEICIOicpz-10">
+        <mxCell id="iKl70BLWrLLEICIOicpz-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iKl70BLWrLLEICIOicpz-15" target="iKl70BLWrLLEICIOicpz-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-15" value="删除当前元素" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iKl70BLWrLLEICIOicpz-15" value="删除当前元素" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="342" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-24" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iKl70BLWrLLEICIOicpz-20" target="iKl70BLWrLLEICIOicpz-14">
+        <mxCell id="iKl70BLWrLLEICIOicpz-24" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iKl70BLWrLLEICIOicpz-20" target="iKl70BLWrLLEICIOicpz-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iKl70BLWrLLEICIOicpz-20" target="iKl70BLWrLLEICIOicpz-15">
+        <mxCell id="iKl70BLWrLLEICIOicpz-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iKl70BLWrLLEICIOicpz-20" target="iKl70BLWrLLEICIOicpz-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="540" y="580" />
@@ -68,12 +68,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-26" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iKl70BLWrLLEICIOicpz-25">
+        <mxCell id="iKl70BLWrLLEICIOicpz-26" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iKl70BLWrLLEICIOicpz-25" vertex="1" connectable="0">
           <mxGeometry x="-0.0674" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iKl70BLWrLLEICIOicpz-20" value="redis 任务状态取消是否存在对应taskId" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iKl70BLWrLLEICIOicpz-20" value="mysql 任务状态取消是否存在对应taskId" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="342" y="560" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
