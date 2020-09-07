@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T07:49:30.940Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="VBFt-u65DSH3dYlOGHs6" version="13.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-07T07:50:55.061Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="YfJMQ9Gy0xq4FIZ-UoMC" version="13.1.1" type="github">
   <diagram id="0-RFVuraUf7fSvYIvw6F" name="Page-1">
     <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,10 @@
           <mxGeometry x="100" y="70" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lWT4EILyouGZOtEGmvAP-3" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="780" width="100" height="40" as="geometry" />
+          <mxGeometry x="100" y="900" width="100" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="dC0mSapoP9QAi4ytZOKZ-5" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="lWT4EILyouGZOtEGmvAP-3">
+          <mxGeometry x="51" y="23" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lWT4EILyouGZOtEGmvAP-4" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10.5pt ; font-family: &amp;#34;times new roman&amp;#34; , serif&quot;&gt;CMPP­_SUBMIT&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="430" width="120" height="60" as="geometry" />
@@ -43,7 +46,7 @@
           <mxGeometry x="290" y="550" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lWT4EILyouGZOtEGmvAP-16" value="短信提交失败" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lWT4EILyouGZOtEGmvAP-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lWT4EILyouGZOtEGmvAP-15" target="lWT4EILyouGZOtEGmvAP-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -88,7 +91,7 @@
             <mxPoint x="-14" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lWT4EILyouGZOtEGmvAP-27" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lWT4EILyouGZOtEGmvAP-16" target="lWT4EILyouGZOtEGmvAP-3" edge="1">
+        <mxCell id="lWT4EILyouGZOtEGmvAP-27" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lWT4EILyouGZOtEGmvAP-16" target="dC0mSapoP9QAi4ytZOKZ-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="850" as="sourcePoint" />
             <mxPoint x="320" y="800" as="targetPoint" />
@@ -116,6 +119,9 @@
         </mxCell>
         <mxCell id="dC0mSapoP9QAi4ytZOKZ-1" value="组装协议请求头和body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dC0mSapoP9QAi4ytZOKZ-4" value="入提交状态消息队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="790" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
