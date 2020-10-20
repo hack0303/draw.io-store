@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T06:57:32.694Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="nv4iuxUZgk7toJZWeGDr" version="13.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-10-20T06:57:49.333Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="l2ujqW9pyizMEDc5GjTr" version="13.6.6" type="github" pages="4">
   <diagram id="EkzYCUThgYBck-13jO8J" name="Page-1">
     <mxGraphModel dx="2216" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jrYY1kV_LxwjjcS4Hbrh" name="Page-3">
-    <mxGraphModel dx="1389" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1389" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xMeDIR_rZCD0GsQ6HXFr-0" />
         <mxCell id="xMeDIR_rZCD0GsQ6HXFr-1" parent="xMeDIR_rZCD0GsQ6HXFr-0" />
@@ -233,7 +233,7 @@
         <mxCell id="xMeDIR_rZCD0GsQ6HXFr-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xMeDIR_rZCD0GsQ6HXFr-1" source="xMeDIR_rZCD0GsQ6HXFr-18" target="xMeDIR_rZCD0GsQ6HXFr-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xMeDIR_rZCD0GsQ6HXFr-18" value="从kafka获取msgId,cluePkType,opType" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" vertex="1" parent="xMeDIR_rZCD0GsQ6HXFr-1">
+        <mxCell id="xMeDIR_rZCD0GsQ6HXFr-18" value="从kafka获取msgId,opType" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" vertex="1" parent="xMeDIR_rZCD0GsQ6HXFr-1">
           <mxGeometry x="635" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xMeDIR_rZCD0GsQ6HXFr-32" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xMeDIR_rZCD0GsQ6HXFr-1" source="xMeDIR_rZCD0GsQ6HXFr-19" target="xMeDIR_rZCD0GsQ6HXFr-21">
@@ -249,7 +249,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xMeDIR_rZCD0GsQ6HXFr-19" value="cluePkType是固定类型&amp;amp;&amp;amp;opType是匹配操作" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="xMeDIR_rZCD0GsQ6HXFr-1">
+        <mxCell id="xMeDIR_rZCD0GsQ6HXFr-19" value="opType是匹配操作" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="xMeDIR_rZCD0GsQ6HXFr-1">
           <mxGeometry x="630" y="190" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xMeDIR_rZCD0GsQ6HXFr-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xMeDIR_rZCD0GsQ6HXFr-1" source="xMeDIR_rZCD0GsQ6HXFr-20" target="xMeDIR_rZCD0GsQ6HXFr-23">
