@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T04:33:21.155Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="doCUKufiGJLDCHFEOfGR" version="13.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-10-20T06:57:32.694Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="nv4iuxUZgk7toJZWeGDr" version="13.6.6" type="github" pages="4">
   <diagram id="EkzYCUThgYBck-13jO8J" name="Page-1">
     <mxGraphModel dx="2216" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -283,7 +283,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RTjg3e0L_YjSKtQNqqnr" name="Page-4">
-    <mxGraphModel dx="2216" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2216" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="y4uR8I-bczOTNtaJ9RPS-0" />
         <mxCell id="y4uR8I-bczOTNtaJ9RPS-1" parent="y4uR8I-bczOTNtaJ9RPS-0" />
@@ -296,11 +296,11 @@
         <mxCell id="y4uR8I-bczOTNtaJ9RPS-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=none;" vertex="1" parent="y4uR8I-bczOTNtaJ9RPS-1">
           <mxGeometry x="110" y="630" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y4uR8I-bczOTNtaJ9RPS-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="y4uR8I-bczOTNtaJ9RPS-1" source="y4uR8I-bczOTNtaJ9RPS-6" target="y4uR8I-bczOTNtaJ9RPS-20">
+        <mxCell id="y4uR8I-bczOTNtaJ9RPS-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="y4uR8I-bczOTNtaJ9RPS-1" source="y4uR8I-bczOTNtaJ9RPS-6" target="y4uR8I-bczOTNtaJ9RPS-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y4uR8I-bczOTNtaJ9RPS-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=none;" vertex="1" parent="y4uR8I-bczOTNtaJ9RPS-1">
-          <mxGeometry x="620" y="-15" width="100" height="60" as="geometry" />
+          <mxGeometry x="620" y="-160" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y4uR8I-bczOTNtaJ9RPS-7" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=none;" vertex="1" parent="y4uR8I-bczOTNtaJ9RPS-1">
           <mxGeometry x="620" y="630" width="100" height="60" as="geometry" />
@@ -389,6 +389,12 @@
         </mxCell>
         <mxCell id="y4uR8I-bczOTNtaJ9RPS-38" value="取数,绑定任务与实际水位关系" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="y4uR8I-bczOTNtaJ9RPS-1">
           <mxGeometry x="610" y="165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y4uR8I-bczOTNtaJ9RPS-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="y4uR8I-bczOTNtaJ9RPS-1" source="y4uR8I-bczOTNtaJ9RPS-41" target="y4uR8I-bczOTNtaJ9RPS-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y4uR8I-bczOTNtaJ9RPS-41" value="CAS从线索包表中取序列号段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="y4uR8I-bczOTNtaJ9RPS-1">
+          <mxGeometry x="610" y="-50" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
