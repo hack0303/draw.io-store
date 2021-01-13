@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T02:51:40.169Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="fDQCn_qqbsXZFGVf9-by" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T03:20:59.385Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="gXmib1BBsg8p839jN82E" version="13.10.2" type="github">
   <diagram id="OE4Rbx_v9x57HFELVVt-" name="Page-1">
     <mxGraphModel dx="2247" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,7 +150,7 @@
           <mxGeometry x="620" y="-780" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JXeRLaUHVqFydGxHS_kT-20" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="620" y="-560" width="100" height="60" as="geometry" />
+          <mxGeometry x="620" y="-360" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JXeRLaUHVqFydGxHS_kT-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="JXeRLaUHVqFydGxHS_kT-23" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -205,6 +205,31 @@
         </mxCell>
         <mxCell id="JXeRLaUHVqFydGxHS_kT-37" value="数据拉取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="-230" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JXeRLaUHVqFydGxHS_kT-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="JXeRLaUHVqFydGxHS_kT-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="-400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXeRLaUHVqFydGxHS_kT-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JXeRLaUHVqFydGxHS_kT-43" target="JXeRLaUHVqFydGxHS_kT-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="-554" />
+              <mxPoint x="770" y="-330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXeRLaUHVqFydGxHS_kT-43" value="是否同步完成" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-584" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JXeRLaUHVqFydGxHS_kT-46" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JXeRLaUHVqFydGxHS_kT-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="-524" as="sourcePoint" />
+            <mxPoint x="670" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXeRLaUHVqFydGxHS_kT-48" value="修改同步状态为true" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
