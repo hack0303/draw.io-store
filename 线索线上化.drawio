@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T02:00:36.035Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="mLUTu2MDTnmn40_jd6vV" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T02:01:23.601Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="JiL8sVyP27DOlyNpUcYr" version="13.10.2" type="github">
   <diagram id="OE4Rbx_v9x57HFELVVt-" name="Page-1">
     <mxGraphModel dx="2247" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="Iuwb1hiTrERbpkQI2ASB-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Iuwb1hiTrERbpkQI2ASB-33" target="Iuwb1hiTrERbpkQI2ASB-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Iuwb1hiTrERbpkQI2ASB-33" value="获取对应分区文件，入松果oss" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+        <mxCell id="Iuwb1hiTrERbpkQI2ASB-33" value="获取对应分区文件，入松果oss，生成内部文件地址" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
           <mxGeometry x="280" y="-60" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Iuwb1hiTrERbpkQI2ASB-35" value="HIVE库查询" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
