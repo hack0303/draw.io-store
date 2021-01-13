@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T02:00:06.686Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="noCi3akwIB3J8bjKZ_KM" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T02:00:36.035Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="mLUTu2MDTnmn40_jd6vV" version="13.10.2" type="github">
   <diagram id="OE4Rbx_v9x57HFELVVt-" name="Page-1">
     <mxGraphModel dx="2247" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,6 +116,9 @@
         </mxCell>
         <mxCell id="JXeRLaUHVqFydGxHS_kT-3" value="修改平台表状态，运行中" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="-190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JXeRLaUHVqFydGxHS_kT-5" value="操作成功，修改表状态有效，否则失败" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
