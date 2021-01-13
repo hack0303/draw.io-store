@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T01:45:12.767Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="RIU29keWQx0U7LGptrBL" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T01:46:05.297Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="bVPYo6TpvtunqU9c3vka" version="13.10.2" type="github">
   <diagram id="OE4Rbx_v9x57HFELVVt-" name="Page-1">
     <mxGraphModel dx="2247" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,6 +59,9 @@
         </mxCell>
         <mxCell id="Iuwb1hiTrERbpkQI2ASB-16" value="自动模型" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="-80" y="-560" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iuwb1hiTrERbpkQI2ASB-17" value="输出分区数据文件" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-360" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
