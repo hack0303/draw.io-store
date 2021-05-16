@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-16T12:04:34.293Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="cPQ2UV-tSK10mo65kUJ4" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-16T12:05:39.484Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="woQGY9ymx-agX2-DVGOl" version="14.6.1" type="github">
   <diagram id="S5nUqgF0kVmoIhidBJA0" name="Page-1">
     <mxGraphModel dx="2249" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,16 +7,16 @@
         <mxCell id="1EL2ZSWoTov76siJrndO-1" value="srv client" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-20" y="200" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1EL2ZSWoTov76siJrndO-2" value="stream srv&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="1EL2ZSWoTov76siJrndO-2" value="stream srv&amp;nbsp; slink" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="280" y="260" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1EL2ZSWoTov76siJrndO-3" value="front srv" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="1EL2ZSWoTov76siJrndO-3" value="front srv slink" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="650" y="260" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1EL2ZSWoTov76siJrndO-4" value="srv admin" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-20" y="530" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1EL2ZSWoTov76siJrndO-5" value="srv feedback" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="1EL2ZSWoTov76siJrndO-5" value="srv feedback slink" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="280" y="480" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1EL2ZSWoTov76siJrndO-6" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
