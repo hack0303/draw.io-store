@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T13:07:05.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ADGHEIzhH0MbiclcYmH3" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T13:12:20.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="16R633ET0D2aBMaWOoaX" version="14.6.9" type="github">
   <diagram id="2DlMUsfGpXkx9Rr1vm7c" name="Page-1">
     <mxGraphModel dx="1422" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,8 +211,20 @@
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-64" value="发放优惠券记录查询" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1340" y="-410" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-65" value="发放优惠券记录查询" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="-290" width="140" height="70" as="geometry" />
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-65" value="启用禁用发放优惠券" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="-310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-66" value="指定商户发放优惠券" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="-210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-67" value="导出发放优惠券记录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="-410" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-68" value="导出发放优惠券记录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="-310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-69" value="导出发放优惠券记录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="-210" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
