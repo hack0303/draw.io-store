@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T13:18:02.866Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="fBp5sEzcKCVvT5JNZeqI" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T13:19:09.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="GNUgMPe-mlFVcKH4DcbU" version="14.6.9" type="github">
   <diagram id="2DlMUsfGpXkx9Rr1vm7c" name="Page-1">
     <mxGraphModel dx="1422" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -221,7 +221,7 @@
           <mxGeometry x="1570" y="-390" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-68" value="审核-指定商户发放优惠券" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="-140" width="140" height="70" as="geometry" />
+          <mxGeometry x="1570" y="-500" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-69" value="&lt;span&gt;指定商户发放优惠券审核管理&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1340" y="-500" width="140" height="70" as="geometry" />
@@ -264,6 +264,9 @@
             <mxPoint x="1227" y="-293.01" as="sourcePoint" />
             <mxPoint x="1330" y="-475" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-78" value="查询优惠券使用记录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="-619" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
