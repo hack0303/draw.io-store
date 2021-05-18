@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T12:50:04.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="9QU1fDMymy9Nhm0hIWks" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T12:54:00.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="-z_CUFJsNBj4xWRWeagP" version="14.6.9" type="github">
   <diagram id="2DlMUsfGpXkx9Rr1vm7c" name="Page-1">
     <mxGraphModel dx="1422" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="30" y="50" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-12" value="优惠券维护" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-210" width="140" height="70" as="geometry" />
+          <mxGeometry x="1035" y="-410" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-15" value="子活动维护" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="290" width="140" height="70" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry x="940" y="480" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-21" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="-370" width="30" height="60" as="geometry" />
+          <mxGeometry x="1090" y="-560" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-22" value="新增子活动规则" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="400" width="140" height="70" as="geometry" />
@@ -148,6 +148,21 @@
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-49" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.579;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VtnJZgjyUKw3o-cdM9Pf-35" target="VtnJZgjyUKw3o-cdM9Pf-48">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="550" y="50" as="sourcePoint" />
+            <mxPoint x="697.98" y="-216.02999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-50" value="优惠券维护" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-51" value="优惠券维护" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="-300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-52" value="下线活动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-370" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-53" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.686;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="VtnJZgjyUKw3o-cdM9Pf-35" target="VtnJZgjyUKw3o-cdM9Pf-52">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="65" as="sourcePoint" />
             <mxPoint x="697.98" y="-216.02999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
