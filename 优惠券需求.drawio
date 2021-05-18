@@ -1,13 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T13:42:31.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="mOyPaeMCw4L1DeFmYIYe" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T13:42:57.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="4wkiAVbZZjbSaKQNHZep" version="14.6.9" type="github">
   <diagram id="2DlMUsfGpXkx9Rr1vm7c" name="Page-1">
     <mxGraphModel dx="1422" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-114" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VtnJZgjyUKw3o-cdM9Pf-8" target="VtnJZgjyUKw3o-cdM9Pf-113">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-8" value="mp&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-8" value="商户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="-530" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-10" value="活动维护" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -353,7 +350,7 @@
           <mxGeometry x="80" y="-430" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-105" value="优惠券查询" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="-545" width="140" height="70" as="geometry" />
+          <mxGeometry x="70" y="-550" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-106" value="优惠券使用记录管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="-640" width="140" height="70" as="geometry" />
@@ -364,22 +361,10 @@
             <mxPoint x="370" y="-450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-107" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.986;entryY=0.743;entryDx=0;entryDy=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="VtnJZgjyUKw3o-cdM9Pf-8" target="VtnJZgjyUKw3o-cdM9Pf-106">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="310" y="-945" as="sourcePoint" />
-            <mxPoint x="310" y="-170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-111" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VtnJZgjyUKw3o-cdM9Pf-105" target="VtnJZgjyUKw3o-cdM9Pf-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="-385" as="sourcePoint" />
             <mxPoint x="340" y="-500" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-108" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VtnJZgjyUKw3o-cdM9Pf-105">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="330" y="-510" as="sourcePoint" />
-            <mxPoint x="228.03999999999996" y="-607.99" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-112" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VtnJZgjyUKw3o-cdM9Pf-106">
@@ -387,15 +372,6 @@
             <mxPoint x="220" y="-495" as="sourcePoint" />
             <mxPoint x="330" y="-510" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-109" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=1;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="VtnJZgjyUKw3o-cdM9Pf-104">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="330" y="-510" as="sourcePoint" />
-            <mxPoint x="220" y="-495" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-113" value="mp&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="-390" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
