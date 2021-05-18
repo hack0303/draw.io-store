@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T13:19:09.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="GNUgMPe-mlFVcKH4DcbU" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T13:19:48.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="R98o4CfyYuYZZ4p-UsMq" version="14.6.9" type="github">
   <diagram id="2DlMUsfGpXkx9Rr1vm7c" name="Page-1">
     <mxGraphModel dx="1422" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -267,6 +267,21 @@
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-78" value="查询优惠券使用记录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1570" y="-619" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-79" value="导出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="-619" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-80" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VtnJZgjyUKw3o-cdM9Pf-74" target="VtnJZgjyUKw3o-cdM9Pf-78">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1236.94" y="-287.97" as="sourcePoint" />
+            <mxPoint x="1351.96" y="-338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-81" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1710" y="-585" as="sourcePoint" />
+            <mxPoint x="1770" y="-585" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
