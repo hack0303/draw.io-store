@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T13:00:22.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="rn3QYVfL2clCrZmW_XJ6" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T13:07:05.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ADGHEIzhH0MbiclcYmH3" version="14.6.9" type="github">
   <diagram id="2DlMUsfGpXkx9Rr1vm7c" name="Page-1">
     <mxGraphModel dx="1422" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,10 +151,10 @@
             <mxPoint x="697.98" y="-216.02999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-50" value="优惠券维护" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-50" value="优惠券管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="-300" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-51" value="优惠券审核" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-51" value="手动发放优惠券管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1140" y="-300" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-52" value="下线活动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -195,6 +195,24 @@
             <mxPoint x="975.06" y="-244.31999999999994" as="sourcePoint" />
             <mxPoint x="809.1533563237822" y="-159.9196085548474" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-60" value="新增优惠券" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="-100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-61" value="修改优惠券" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="-30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-62" value="删除优惠券" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="40" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-63" value="启用/禁用优惠券" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1171" y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-64" value="发放优惠券记录查询" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="-410" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-65" value="发放优惠券记录查询" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="-290" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
