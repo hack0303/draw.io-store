@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T12:57:55.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="QwrUXGMr_04tueuIdwyM" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T12:58:41.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="oNisa5DNSqDg39UV5HhZ" version="14.6.9" type="github">
   <diagram id="2DlMUsfGpXkx9Rr1vm7c" name="Page-1">
     <mxGraphModel dx="1422" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,7 +154,7 @@
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-50" value="优惠券维护" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="-300" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-51" value="优惠券维护" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-51" value="优惠券审核" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1150" y="-300" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VtnJZgjyUKw3o-cdM9Pf-52" value="下线活动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -170,6 +170,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="620" y="225" as="sourcePoint" />
             <mxPoint x="690" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VtnJZgjyUKw3o-cdM9Pf-56" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.279;exitY=0.957;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VtnJZgjyUKw3o-cdM9Pf-12" target="VtnJZgjyUKw3o-cdM9Pf-50">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1079.9974746830583" y="-109.99873734152925" as="sourcePoint" />
+            <mxPoint x="1160.5" y="-170.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
