@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T09:24:41.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="NGen6CJ1lBI-2dZsciWP" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T09:49:03.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="L9O8kh1CFlBU_ILqB1d4" version="14.6.13" type="github">
   <diagram id="oK-42H29SPuLibGA3FoY" name="Page-1">
     <mxGraphModel dx="1422" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry x="90" y="120" width="20" height="570" as="geometry" />
         </mxCell>
         <mxCell id="FJxAa9fHk7rGvwItD7O2-2" value="unified-promotion（营销活动）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="120" width="100" height="720" as="geometry" />
+          <mxGeometry x="240" y="120" width="100" height="920" as="geometry" />
         </mxCell>
         <mxCell id="FJxAa9fHk7rGvwItD7O2-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FJxAa9fHk7rGvwItD7O2-2">
           <mxGeometry x="45" y="80" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FJxAa9fHk7rGvwItD7O2-3" value="unified-fundin(充值/收款服务)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="120" width="100" height="720" as="geometry" />
+          <mxGeometry x="430" y="120" width="100" height="930" as="geometry" />
         </mxCell>
         <mxCell id="FJxAa9fHk7rGvwItD7O2-4" value="unified-promotion定时任务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="610" y="120" width="100" height="720" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry x="655" y="200" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FJxAa9fHk7rGvwItD7O2-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="475" y="645" width="10" height="80" as="geometry" />
+          <mxGeometry x="475" y="645" width="10" height="125" as="geometry" />
         </mxCell>
         <mxCell id="FJxAa9fHk7rGvwItD7O2-13" value="OP" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="950" y="120" width="20" height="300" as="geometry" />
@@ -144,16 +144,55 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FJxAa9fHk7rGvwItD7O2-41" value="定时扫描" style="shape=umlFrame;whiteSpace=wrap;html=1;width=90;height=30;" vertex="1" parent="1">
-          <mxGeometry x="550" y="610" width="240" height="150" as="geometry" />
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-41" value="定时扫描" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=20;" vertex="1" parent="1">
+          <mxGeometry x="560" y="600" width="230" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-50" value="13.查询活动规则" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FJxAa9fHk7rGvwItD7O2-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="694" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="694" />
+              <mxPoint x="300" y="694" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="FJxAa9fHk7rGvwItD7O2-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="655" y="645" width="10" height="80" as="geometry" />
+          <mxGeometry x="655" y="645" width="10" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="FJxAa9fHk7rGvwItD7O2-45" value="4.订单回调" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-45" value="11.查询店铺和入账账号信息" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="655" y="650" as="sourcePoint" />
             <mxPoint x="480" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-49" value="12.返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=-0.3;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="FJxAa9fHk7rGvwItD7O2-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="676" as="sourcePoint" />
+            <mxPoint x="109.5" y="489" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="676" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="285" y="690" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-53" value="14.返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=-0.3;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.5;exitY=0.387;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FJxAa9fHk7rGvwItD7O2-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="493" y="720" as="sourcePoint" />
+            <mxPoint x="655" y="720.9300000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="523" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-54" value="15.生成入账账户优惠券" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.2;exitY=0.671;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FJxAa9fHk7rGvwItD7O2-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="750" as="sourcePoint" />
+            <mxPoint x="290" y="749" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="298" y="749" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
