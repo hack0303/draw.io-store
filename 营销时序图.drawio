@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T09:05:12.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="23yD2CBOupPeYjDDMbLZ" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T09:12:02.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="yrrwEeDWHDBWGI3_7B0V" version="14.6.13" type="github">
   <diagram id="oK-42H29SPuLibGA3FoY" name="Page-1">
     <mxGraphModel dx="1422" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FJxAa9fHk7rGvwItD7O2-1" value="MP" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="120" width="20" height="300" as="geometry" />
+          <mxGeometry x="90" y="120" width="20" height="570" as="geometry" />
         </mxCell>
         <mxCell id="FJxAa9fHk7rGvwItD7O2-2" value="unified-promotion（营销活动）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="120" width="100" height="720" as="geometry" />
@@ -68,7 +68,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FJxAa9fHk7rGvwItD7O2-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="285" y="370" width="10" height="80" as="geometry" />
+          <mxGeometry x="285" y="370" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FJxAa9fHk7rGvwItD7O2-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="475" y="240" width="10" height="100" as="geometry" />
@@ -84,6 +84,50 @@
               <mxPoint x="535" y="283" />
               <mxPoint x="535" y="320" />
               <mxPoint x="494" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="285" y="440" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-30" value="" style="endArrow=classic;html=1;entryX=0.4;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FJxAa9fHk7rGvwItD7O2-1" target="FJxAa9fHk7rGvwItD7O2-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="420" as="sourcePoint" />
+            <mxPoint x="190" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-31" value="6.绑定授权店铺" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FJxAa9fHk7rGvwItD7O2-30">
+          <mxGeometry x="-0.1082" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-32" value="7.绑定授权成功/" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="FJxAa9fHk7rGvwItD7O2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="405" as="sourcePoint" />
+            <mxPoint x="944.5" y="404.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-34" value="" style="endArrow=classic;html=1;entryX=0.4;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="440" as="sourcePoint" />
+            <mxPoint x="289.5" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-35" value="8.绑定店铺入账账号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FJxAa9fHk7rGvwItD7O2-34">
+          <mxGeometry x="-0.1082" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FJxAa9fHk7rGvwItD7O2-37" value="9.激活成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.4;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FJxAa9fHk7rGvwItD7O2-29" target="FJxAa9fHk7rGvwItD7O2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="415" as="sourcePoint" />
+            <mxPoint x="109.5" y="415" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="479" />
+              <mxPoint x="140" y="479" />
             </Array>
           </mxGeometry>
         </mxCell>
