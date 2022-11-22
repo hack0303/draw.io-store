@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T10:08:30.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="YaBGmqmzY7EDMmBLonU1" type="github"><diagram id="3bXa8_pg_NiVko2rti2h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-22T10:55:23.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PZiLKn0Hc5pkMoat-msf" version="20.5.3" type="github">
+  <diagram id="3bXa8_pg_NiVko2rti2h" name="第 1 页">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mz_SiDC4PPgwfu439jaN-1" value="会话" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz_SiDC4PPgwfu439jaN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Mz_SiDC4PPgwfu439jaN-2" target="Mz_SiDC4PPgwfu439jaN-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mz_SiDC4PPgwfu439jaN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mz_SiDC4PPgwfu439jaN-2" target="Mz_SiDC4PPgwfu439jaN-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mz_SiDC4PPgwfu439jaN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mz_SiDC4PPgwfu439jaN-2" target="Mz_SiDC4PPgwfu439jaN-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mz_SiDC4PPgwfu439jaN-2" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz_SiDC4PPgwfu439jaN-3" value="会话保持" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz_SiDC4PPgwfu439jaN-4" value="会话结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz_SiDC4PPgwfu439jaN-5" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz_SiDC4PPgwfu439jaN-6" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.981;exitY=0.267;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Mz_SiDC4PPgwfu439jaN-1" target="Mz_SiDC4PPgwfu439jaN-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="sourcePoint" />
+            <mxPoint x="520" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mz_SiDC4PPgwfu439jaN-8" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.019;entryY=0.41;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mz_SiDC4PPgwfu439jaN-1" target="Mz_SiDC4PPgwfu439jaN-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="269" as="sourcePoint" />
+            <mxPoint x="510" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mz_SiDC4PPgwfu439jaN-9" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.948;exitY=0.819;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Mz_SiDC4PPgwfu439jaN-1" target="Mz_SiDC4PPgwfu439jaN-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="370" as="sourcePoint" />
+            <mxPoint x="480" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
