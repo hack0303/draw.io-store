@@ -1,15 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T06:19:45.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NNlDkUCDae2VRpJFpT6s" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T07:55:13.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="FtYMi9iFgi9d7f5EYpL7" version="20.5.3" type="github">
   <diagram id="aC0cHqoq0AYvwJq9NSrj" name="第 1 页">
-    <mxGraphModel dx="1595" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1609" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LX_nnY6aulENI7ctJMNe-6" value="根据cid,sessionId查询用户状态" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.267;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="LX_nnY6aulENI7ctJMNe-18" target="LX_nnY6aulENI7ctJMNe-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="LX_nnY6aulENI7ctJMNe-6" value="销毁用户会话" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.267;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="LX_nnY6aulENI7ctJMNe-18" target="LX_nnY6aulENI7ctJMNe-3" edge="1">
+          <mxGeometry x="0.0448" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="465" y="287" />
-              <mxPoint x="465" y="280" />
+              <mxPoint x="223" y="280" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LX_nnY6aulENI7ctJMNe-2" value="zaip-aic-connectionws-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
@@ -44,30 +44,12 @@
         <mxCell id="LX_nnY6aulENI7ctJMNe-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="LX_nnY6aulENI7ctJMNe-3" vertex="1">
           <mxGeometry x="45" y="210" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="LX_nnY6aulENI7ctJMNe-15" value="cid+sessionId组装redisKey" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.167;exitY=0.192;exitDx=0;exitDy=0;exitPerimeter=0;" parent="LX_nnY6aulENI7ctJMNe-3" source="LX_nnY6aulENI7ctJMNe-14" target="LX_nnY6aulENI7ctJMNe-14" edge="1">
-          <mxGeometry y="75" relative="1" as="geometry">
+        <mxCell id="LX_nnY6aulENI7ctJMNe-15" value="删除cid+sessionId对应的redis缓存" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.167;exitY=0.192;exitDx=0;exitDy=0;exitPerimeter=0;" parent="LX_nnY6aulENI7ctJMNe-3" source="LX_nnY6aulENI7ctJMNe-14" target="LX_nnY6aulENI7ctJMNe-14" edge="1">
+          <mxGeometry x="-0.0547" y="110" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="233" />
               <mxPoint x="80" y="270" />
             </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LX_nnY6aulENI7ctJMNe-21" value="查询redis缓存" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="LX_nnY6aulENI7ctJMNe-3" source="LX_nnY6aulENI7ctJMNe-14" edge="1">
-          <mxGeometry x="0.125" y="40" relative="1" as="geometry">
-            <mxPoint x="55" y="310" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="80" y="280" />
-              <mxPoint x="80" y="310" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="W0oWPmlOotF5yfCjIIyB-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LX_nnY6aulENI7ctJMNe-3">
-          <mxGeometry x="45" y="420" width="10" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="W0oWPmlOotF5yfCjIIyB-8" value="删除cid+sessionId对应的redis缓存" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LX_nnY6aulENI7ctJMNe-3" source="W0oWPmlOotF5yfCjIIyB-6" target="W0oWPmlOotF5yfCjIIyB-6">
-          <mxGeometry x="-0.1667" y="95" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -129,26 +111,13 @@
             <mxPoint x="130" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W0oWPmlOotF5yfCjIIyB-1" value="&amp;lt;&amp;lt;async&amp;gt;&amp;gt;&lt;br&gt;关闭会话" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LX_nnY6aulENI7ctJMNe-7" target="LX_nnY6aulENI7ctJMNe-2">
+        <mxCell id="W0oWPmlOotF5yfCjIIyB-1" value="&amp;lt;&amp;lt;async&amp;gt;&amp;gt;&lt;br&gt;关闭坐席会话" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LX_nnY6aulENI7ctJMNe-7" target="LX_nnY6aulENI7ctJMNe-2">
           <mxGeometry x="0.0334" y="20" relative="1" as="geometry">
             <mxPoint x="310" y="420" as="targetPoint" />
             <Array as="points">
               <mxPoint x="310" y="420" />
               <mxPoint x="310" y="420" />
             </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="W0oWPmlOotF5yfCjIIyB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W0oWPmlOotF5yfCjIIyB-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="755" y="490" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="755" y="490" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="W0oWPmlOotF5yfCjIIyB-7" value="销毁会话" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W0oWPmlOotF5yfCjIIyB-5">
-          <mxGeometry x="0.2457" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -160,20 +129,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W0oWPmlOotF5yfCjIIyB-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="120" width="30" height="60" as="geometry" />
+        <mxCell id="W0oWPmlOotF5yfCjIIyB-9" value="客户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="110" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W0oWPmlOotF5yfCjIIyB-11" value="IM-H5" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-60" y="70" width="100" height="700" as="geometry" />
         </mxCell>
         <mxCell id="W0oWPmlOotF5yfCjIIyB-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="W0oWPmlOotF5yfCjIIyB-11">
           <mxGeometry x="45" y="80" width="10" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="W0oWPmlOotF5yfCjIIyB-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="W0oWPmlOotF5yfCjIIyB-11">
-          <mxGeometry x="45" y="545" width="10" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="W0oWPmlOotF5yfCjIIyB-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="W0oWPmlOotF5yfCjIIyB-11">
-          <mxGeometry x="45" y="600" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W0oWPmlOotF5yfCjIIyB-30" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="W0oWPmlOotF5yfCjIIyB-11">
           <mxGeometry x="35" y="680" width="30" height="30" as="geometry" />
@@ -190,9 +153,6 @@
           <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
             <mxPoint x="11" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="W0oWPmlOotF5yfCjIIyB-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="-15" y="550" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W0oWPmlOotF5yfCjIIyB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W0oWPmlOotF5yfCjIIyB-2" target="W0oWPmlOotF5yfCjIIyB-18">
           <mxGeometry relative="1" as="geometry">
@@ -236,6 +196,24 @@
         </mxCell>
         <mxCell id="W0oWPmlOotF5yfCjIIyB-33" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="745" y="750" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W0oWPmlOotF5yfCjIIyB-48" value="坐席" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="315" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W0oWPmlOotF5yfCjIIyB-51" value="IM-Servant-Web" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="70" width="100" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="W0oWPmlOotF5yfCjIIyB-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="W0oWPmlOotF5yfCjIIyB-51">
+          <mxGeometry x="45" y="480" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W0oWPmlOotF5yfCjIIyB-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="W0oWPmlOotF5yfCjIIyB-51">
+          <mxGeometry x="45" y="545" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W0oWPmlOotF5yfCjIIyB-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="W0oWPmlOotF5yfCjIIyB-51">
+          <mxGeometry x="45" y="600" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W0oWPmlOotF5yfCjIIyB-52" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="W0oWPmlOotF5yfCjIIyB-51">
+          <mxGeometry x="35" y="680" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
