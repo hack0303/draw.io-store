@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T04:12:34.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="N5gnCRajrV83dXrL4TF-" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T06:19:45.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NNlDkUCDae2VRpJFpT6s" version="20.5.3" type="github">
   <diagram id="aC0cHqoq0AYvwJq9NSrj" name="第 1 页">
     <mxGraphModel dx="1595" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,7 +75,7 @@
           <mxGeometry x="530" y="70" width="100" height="690" as="geometry" />
         </mxCell>
         <mxCell id="LX_nnY6aulENI7ctJMNe-1" value="zaip-aic-web-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="70" width="140" height="500" as="geometry" />
+          <mxGeometry x="140" y="70" width="140" height="700" as="geometry" />
         </mxCell>
         <mxCell id="LX_nnY6aulENI7ctJMNe-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="LX_nnY6aulENI7ctJMNe-1" vertex="1">
           <mxGeometry x="65" y="80" width="10" height="330" as="geometry" />
@@ -113,6 +113,9 @@
         </mxCell>
         <mxCell id="LX_nnY6aulENI7ctJMNe-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="LX_nnY6aulENI7ctJMNe-1" vertex="1">
           <mxGeometry x="70" y="210" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="W0oWPmlOotF5yfCjIIyB-42" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="LX_nnY6aulENI7ctJMNe-1">
+          <mxGeometry x="55" y="680" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LX_nnY6aulENI7ctJMNe-24" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
