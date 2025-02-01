@@ -167,7 +167,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_Z_uj8p7wO4dFAmXwdgx-48" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="900" y="250" width="60" height="80" as="geometry" />
+          <mxGeometry x="890" y="250" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_Z_uj8p7wO4dFAmXwdgx-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_Z_uj8p7wO4dFAmXwdgx-29" target="_Z_uj8p7wO4dFAmXwdgx-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
